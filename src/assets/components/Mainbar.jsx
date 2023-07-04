@@ -53,7 +53,7 @@ const Mainbar = () => {
       </div>
       <div className="flex flex-grow justify-end items-center gap-x-3 mb-2 mr-8">
         <button className="text-[#1161D6] border border-[#1161D6] bg-white rounded-lg px-9 py-3   ">Upload Clients</button>
-        <button className="text-[white] bg-[#1161D6] rounded-lg px-9 py-3  ">Add Clients</button>
+        <button className="text-[white] bg-[#1161D6] rounded-lg px-9 py-3  ">Add Client</button>
       </div>
     </div>
   )

@@ -19,7 +19,7 @@ const Maincontaint = ({ data }) => {
           <p className='text-base flex-shrink-0 w-[200px]'>Email</p>
           <p className='text-base flex-shrink-0 w-[140px]'>GSTIN/Tax ID</p>
           <p className='text-base flex-shrink-0 w-[140px]'>Pan</p>
-          <p className='text-base flex-shrink-0 w-[130px]'>Country</p>
+          <p className='text-base flex-shrink-0 w-[130px]'>Countries</p>
         </div>
         {data.map((item) => (
           <tr key={item.email} className="border-b border-[#F5F5F5] transition-colors duration-100 flex flex-row items-center">
